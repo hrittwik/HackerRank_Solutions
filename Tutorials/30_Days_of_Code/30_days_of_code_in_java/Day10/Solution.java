@@ -29,7 +29,7 @@ public class Solution {
     }
     
     public static int numberOfOne(String s){
-    	char one = '1', zero = '0';
+    	char one = '1';
     	char[] binary = s.toCharArray();
     	int count = 0, consecutive = 0;
     	
