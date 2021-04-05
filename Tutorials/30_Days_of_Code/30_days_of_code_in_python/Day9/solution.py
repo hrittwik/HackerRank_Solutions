@@ -15,7 +15,7 @@ def factorial(n):
     
     
 if __name__ == '__main__':
-    #fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
 
     n = int(input())
@@ -23,6 +23,6 @@ if __name__ == '__main__':
     result = factorial(n)
 
     print(result)
-    #fptr.write(str(result) + '\n')
+    fptr.write(str(result) + '\n')
 
-    #fptr.close()
+    fptr.close()
